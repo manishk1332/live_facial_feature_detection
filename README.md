@@ -49,6 +49,7 @@ Follow these steps to set up and run the project.
     │   ├── fer2013/
     │   └── UTKFace/
     ├── train_models.py
+    ├── train_emotions.py
     └── real_time_detection.py
     ```
 
@@ -56,8 +57,9 @@ Follow these steps to set up and run the project.
 * Execute the training script from your terminal. This process is computationally intensive and will take a significant amount of time.
     ```bash
     python train_models.py
+    python train_emotions.py
     ```
-* Upon completion, a new directory named `models_trained_vgg19_full` will be created, containing the trained model `.h5` files.
+* Upon completion, new directories named `models_trained_vgg19_full` and `models_trained_vgg19` will be created, containing the trained model `.h5` files.
 
 **6. Execution**
 * Once the models have been trained, run the real-time detection script:
